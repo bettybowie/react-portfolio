@@ -18,6 +18,13 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--bg);
+  height: 100%;
+}
+
+footer {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
 }
 
 p {
@@ -31,58 +38,53 @@ header {
   color: var(--green);
   justify-content: space-between;
   align-items: center;
-  padding: 1% 5% 1% 0;
-}
-
-header, figure {
-max-width: 100%;
-height: auto;
+  padding: 1% 1% 1% 0;
 }
 
 h1 {
-  background-color: var(--neon);
   color: var(--gray);
   font-size: 450%;
   font-weight: bold;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 
-nav ul {
-list-style-type: none;
-display: flex;
-align-items: flex-end;
-justify-content: space-between;
-width: 450px;
+.nav {
+  --bs-nav-link-color: var(--green);
+  --bs-nav-link-hover-color: var(--white);
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-nav a {
-color: var(--neon);
-font-weight: bolder;
-border-bottom: solid;
-padding: 5px 5px;
-font-size: 150%;
+.nav-tabs {
+  --bs-nav-tabs-link-active-color: var(--green);
+  --bs-nav-tabs-link-active-bg: var(--white);
 }
 
-nav a:hover {
-color: #fff;
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 800px;
 }
 
-a {
-text-decoration: none;
+input {
+  border: 4px double var(--bg);
 }
 
-figure {
-position: relative;
+#textarea {
+  height: 300px;
+  border: 4px double var(--bg);
 }
 
-figcaption {
-color: var(--gray);
-font-size: 150%;
-font-weight: bold;
-position: absolute;
-bottom: 15px;
-right: 55px;
-background-color: var(--neon);
+#contactSubmitBtn {
+  width: 130px;
+  border: 4px double var(--bg);
+  border-radius: 5px;
+}
+
+#contactSubmitBtn:hover {
+  background-color: var(--beige);
+  color: var(--white);
 }
 
 section {
@@ -104,80 +106,11 @@ max-width: 800px;
 margin: 10px;
 }
 
-/* Class  Selectors*/
-.work, .refactor {
-position: relative;
-}
-
-.work-div {
-display:flex;
-flex-wrap: wrap;
-padding-left: 20px;
-justify-content: space-around;
-}
-
-.work img:hover, .refactor img:hover {
-opacity: 1;
-}
-
-.refactor img {
-width: 700px;
-height: 220px;
-opacity: 0.5;
-}
-
-.refactor div {
-position: absolute;
-background-color: var(--neon);
-color: var(--blue);
-bottom: 70px;
-padding: 1%;
-width: 170px;
-height: 50px;
-}
-
-.work img {
-width: 350px;
-height: 110px;
-opacity: 0.5;
-padding-top: 20px;
-}
-
-.work div {
-position: relative;
-background-color: var(--neon);
-color: var(--blue);
-bottom: 80px;
-padding: 1%;
-width: 170px;
-height: 50px;
-}
-
-#ContactMe ul {
-list-style-type: none;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-color: var(--blue);
-font-size: 120%;
-min-width: 700px;
-padding-left: 20px;
-}
-
-#ContactMe a {
-text-decoration: none;
-color: var(--blue);
-}
-
-#ContactMe li {
-border-bottom: solid;
-}
-
 #portrait {
   border-radius: 45%;
   margin: 10px;
 }
 
-#downloadBtn {
-  
+a {
+  padding: 10px 20px;
 }

@@ -58,11 +58,12 @@ export default function Contact() {
         />
         <label>Message:</label>
         <textarea
+          id="textarea"
           name="message"
           onBlur={handleInputChange}
           type="text"
           placeholder="message"
-        />
+        /> <br/>
         <button type="submit" id="contactSubmitBtn" onClick={handleSubmit}>
           Send Message
         </button>

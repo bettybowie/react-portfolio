@@ -5,6 +5,7 @@ import Contact from './components/Tabs/Contact';
 import NavTabs from './components/NavTabs';
 import Portfolio from './components/Tabs/Portfolio';
 import Resume from './components/Tabs/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -31,6 +32,7 @@ function App() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer/>
     </div>
   );
 }
