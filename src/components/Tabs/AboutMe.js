@@ -1,18 +1,28 @@
-import React from 'react';
+import React from "react";
+import Betty from "../../Assets/images/Betty.png";
 
-export default function About() {
-    return (
-      <div>
-        <h1>About Page</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
-      </div>
-    );
-  }
-  
+export default function AboutMe() {
+  return (
+    <section>
+      <h2>About Me</h2>
+      <img id='portrait' src={Betty} alt="portrait" width="280" height="310"></img>
+      <h3>
+        Hello there, my name is Betty Bowie Lu. I graduated from the University of
+        Washington in 2017 with a Bachelor's degree in Psychology. Since then, I
+        have worked as a server at a hotpot restaurant, a barista at a fruit tea
+        shop, and a project coordinator at an IT company. Currently, I am a
+        student taking a six-month full-stack web development course that will
+        be completed in May 2023. I am thoroughly enjoying the process of
+        learning web development and programming, and I am excited to apply
+        these new skills to my future career. <br />
+        <br />
+        Apart from my professional endeavors, I have a passion for fashion and
+        reading Chinese novels. Fashion has always been an important part of my
+        life, and I love expressing myself through my clothing choices. In my
+        free time, I indulge in reading Chinese novels, which take me on an
+        immersive journey to places I have never been before. <br />
+        <br />Thank you for taking the time to get to know a little bit about me.
+      </h3>
+    </section>
+  );
+}

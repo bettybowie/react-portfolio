@@ -1,22 +1,95 @@
-import React from 'react';
+import React from "react";
 
 export default function Portfolio() {
-    return (
-      <div>
-        <h1>Portfolio</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
+  return (
+    <section>
+      <h2>Portfolio</h2>
+      <div class="card-group">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        </div>
+        <div class="card-group">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..."></img>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
       </div>
-    );
-  }
+    </section>
+  );
+}
