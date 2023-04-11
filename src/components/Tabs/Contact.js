@@ -41,6 +41,7 @@ export default function Contact() {
   return (
     <section>
       <h2>Contact Me</h2>
+      <h3> If you would like to contact me, please email me at bettybowielu@gmail.com or fill out this contact form. Thank you.</h3>
       <form className="form">
         <label>Name:</label>
         <input
