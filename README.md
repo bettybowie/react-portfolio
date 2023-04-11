@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my portfolio page built with react. It showcases the assignments I've done in coding bootcamp. 
+This is my portfolio page built with React. It showcases the assignments I've done in coding bootcamp. 
 
 ## Usage
 
@@ -23,7 +23,7 @@ HTML
 
 Solution URL: [https://github.com/bettybowie/react-portfolio]  
 
-Live URL: []
+Live URL: [https://bettybowie.github.io/react-portfolio/]
 
 ## License
 
