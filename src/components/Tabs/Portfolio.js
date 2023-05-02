@@ -5,6 +5,7 @@ import noteTaker from "../../Assets/images/noteTaker.png";
 import timedQuiz from "../../Assets/images/timedQuiz.png";
 import weatherDashboard from "../../Assets/images/weatherDashboard.png";
 import dayPlanner from "../../Assets/images/dayPlanner.png";
+import matchmyneeds from "../../Assets/images/matchmyneeds.png";
 
 export default function Portfolio() {
   return (
@@ -210,6 +211,50 @@ export default function Portfolio() {
               <small className="text-body-secondary">
                 <a
                   href="https://github.com/bettybowie/timedQuiz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View GitHub Repo
+                </a>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div className="card-group">
+          <div className="card">
+            <img
+              src={matchmyneeds}
+              className="card-img-top"
+              alt="matchmyneeds"
+            ></img>
+            <div className="card-body">
+              <h5 className="card-title">MatchMyNeeds</h5>
+              <p className="card-text">
+                This website was created so that anyone can post their
+                needs/request for a specific item and connects people from all
+                over the nation to fulfill their ask. Purely giving out of the
+                goodness of one’s heart or simply to declutter their space.
+                There’s no limit to how much you can give or how much you can
+                ask. The beauty about our application is that we connect people
+                through community and the experience of sharing that item. What
+                sets us apart from a thrift store is that users do not blindly
+                give, they are personally donating their item to an individual
+                who will give it a second chance.
+              </p>
+            </div>
+            <div className="card-footer">
+              <small className="text-body-secondary">
+                <a
+                  href="https://matchmyneeds.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Deployment
+                </a>{" "}
+              </small>
+              <small className="text-body-secondary">
+                <a
+                  href="https://github.com/bettybowie/MatchMyNeeds"
                   target="_blank"
                   rel="noreferrer"
                 >
